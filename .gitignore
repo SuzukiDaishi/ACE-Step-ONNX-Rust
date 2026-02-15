@@ -230,3 +230,31 @@ issues/
 PortableGit/
 proxy_config.txt
 gradio_outputs/
+
+# Added by cargo
+
+/target
+runtime_rust_dll/target/
+runtime_rust_ort/target/
+examples/ffi/csharp/bin/
+examples/ffi/csharp/obj/
+**/__pycache__/
+reports/tmp*/
+
+# Visual Studio
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local test fixtures (large baseline assets)
+fixtures/
+
+# Local reports and ONNX artifacts
+reports/
+onnx/
+artifacts/onnx_runtime*/
+.onnx
+.onnx.*
